@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Notepad</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="text_title">タイトル</string>
+    <string name="text_tag">タグ</string>
+    <string name="text_main">本文</string>
+    <string name="save_button">保存</string>
+    <string name="delete_button">削除</string>
+
+    <!-- メモファイルの名前を指定 -->
+    <string name="filename_title">filename_title.txt</string>
+    <string name="filename_tag">filename_tag.txt</string>
+    <string name="filename_main">filename_main.txt</string>
+
+    <string name="massage_save">メモを保存しました。</string>
+    <string name="massage_delete">メモを削除しました。</string>
+    <string name="message_empty">メモが作成されていません。</string>
+</resources>

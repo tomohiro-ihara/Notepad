@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.apc.notepad.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/note_edit" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/delete_button"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:background="@drawable/circle_button"
+            android:onClick="onSave"
+            android:text="@string/save_button"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:background="@drawable/circle_button"
+            android:onClick="onDelete"
+            android:text="@string/delete_button"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
